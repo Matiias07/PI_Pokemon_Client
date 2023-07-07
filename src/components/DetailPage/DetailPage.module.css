@@ -1,0 +1,184 @@
+.containermaster {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background: rgb(235 147 21);
+    max-width: 100vw;
+    height: 100vh;
+
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.titledetail {
+    font-size: xxx-large;
+    color: #ca1717;
+    text-shadow: -1px 2px 2px black;
+}
+
+.titlename {
+    color: #ca1717;
+    text-shadow: -3px 3px 2px black;
+    font-size: xx-large;
+    margin: -0%;
+}
+
+
+.stat {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.substat {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    width: 35vw;
+}
+
+
+.titleStat {
+    font-size: x-large;
+    color: rgb(202 23 23);
+    text-shadow: -3px 2px 2px rgb(225 204 204);
+    text-align: center;
+}
+
+.titlesStats {
+    font-size: large;
+    color: rgb(202 23 23);
+    text-shadow: -2px 1px 2px rgb(225 204 204);
+    text-align: center;
+}
+
+.titlesStats span {
+
+    color: rgb(120 46 46);
+}
+
+
+.img {
+    margin: 5px;
+    display: flex;
+
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.img img {
+    width: 25vw;
+
+}
+
+.types {
+    display: flex;
+    gap: 1rem;
+}
+
+.types span {
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+}
+
+.grass {
+    background-color: #9bcc50;
+}
+
+.fire {
+    background-color: #ff7402;
+}
+
+.steel {
+    background-color: #9eb7b8;
+}
+
+.water {
+    background-color: #4592c4;
+}
+
+.psychic {
+    background-color: #f366b9;
+}
+
+.ground {
+    background: linear-gradient(180deg, #f7de3f 50%, #ab9842 50%);
+}
+
+.ice {
+    background-color: #51c4e7;
+}
+
+.flying {
+    background: linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%);
+}
+
+.ghost {
+    background-color: #7b62a3;
+}
+
+.normal {
+    background-color: #a4acaf;
+}
+
+.poison {
+    background-color: #7e0058;
+}
+
+.rock {
+    background-color: #a38c21;
+}
+
+.fighting {
+    background-color: #d56723;
+}
+
+.dark {
+    background-color: #707070;
+}
+
+.bug {
+    background-color: #729f3f;
+}
+
+.dragon {
+    background: linear-gradient(180deg, #53a4cf 50%, #f16e57 50%);
+}
+
+.electric {
+    background-color: #bba909;
+}
+
+.fairy {
+    background-color: #fdb9e9;
+}
+
+.shadow {
+    background-color: #7b62a3;
+}
+
+.unknow {
+    background-color: #757575;
+}
